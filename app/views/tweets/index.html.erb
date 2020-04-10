@@ -13,7 +13,7 @@
             </div>
           </div>
           <div class="tweet-text">
-            <%= safe_join(tweet.text.split("n"), tag(:br)) %>
+            <%= safe_join(tweet.text.split("\n"), tag(:br)) %>
           </div>
         </div>
       </div>
